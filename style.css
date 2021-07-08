@@ -34,7 +34,7 @@
 }
 
 .navigation_text {
-    font-size: 24px;
+    font-size: 20px;
     color: #FFFFFF;
     text-decoration: none;
     font-family: 'Roboto';
@@ -109,6 +109,7 @@
 
 .hero_image {
     max-width: 1440px;
+    
 }
 
 .PPC {
@@ -177,14 +178,19 @@
 }
 
 .the_team_cards {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    width: 1000px;
-    justify-content: center;
+    justify-content: center; 
+
 }
 
 .card {
-    margin: 20px 60px 60px;
+    text-align: center;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  flex-basis: 30%;
 }
 
 .the_team_names {
